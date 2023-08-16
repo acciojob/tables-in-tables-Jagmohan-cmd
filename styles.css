@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+#bg-change{
+	background-color: black;
+	color: white;
+}
+.center1{
+	width: 50vw;
+	height: 50vh;
+}
+.center2{
+	width: 50vw;	
+	height: 20vh;
+}
+#t1, #t2, #t3, #t4{
+	width:100%;
+}
+.c{
+	text-align: center;
+}

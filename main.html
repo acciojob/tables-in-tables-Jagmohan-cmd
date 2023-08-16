@@ -7,8 +7,92 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height: 100%" border="2">
       <!-- Your code here -->
+		<thead>
+			<tr>
+				<th class="center1">
+					<table id="t2" border="2">
+						<thead>
+							<tr>
+								<th colspan="2">Nested Table 2</th>
+							</tr>
+							<tr>
+								<th>Column 1</th>
+								<th>Column 2</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>abc</td>
+								<td>def</td>
+							</tr>
+						</tbody>	
+					</table>
+	<!-- 		NESTED TABLE 2 IS ENDED HERE -->
+				</th >
+				<th class="center1">
+					<table id="t1" border="2">
+						<thead>
+							<tr>
+								<th>Nested Table 1</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<ul>
+										<li>List item</li>
+										<li>List item</li>
+										<li>List item</li>
+									</ul>
+								</td>	
+							</tr>
+						</tbody>
+					</table>
+	<!-- 		NESTED TABLE 1 IS ENDED HERE -->
+				</th>
+			</tr>
+		</thead>
+<!-- 		MAIN THEAD IS ENDED HERE -->
+		<tbody>
+			<tr>
+				<td class="center2">
+					<table id="t3" border="2">
+						<thead>
+							<tr>
+								<th colspan="2">Nested Table 3</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="c"><a href="#">Nested Table</a></td>
+								<td class="c">Demo Continued</td>
+							</tr>
+						</tbody>
+					</table>
+	<!-- 		NESTED TABLE 3 IS ENDED HERE -->
+				</td>
+				<center>
+				<td class="center2">
+					<table id="t4" border="2">
+						<thead>
+							<tr>
+								<th>Nested Table 4</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="c" id="bg-change">HTML</td>
+							</tr>
+						</tbody>
+					</table>
+	<!-- 		NESTED TABLE 4 IS ENDED HERE -->
+				</td>
+				</center>
+			</tr>
+		</tbody>
+
     </table>
   </body>
 </html>
