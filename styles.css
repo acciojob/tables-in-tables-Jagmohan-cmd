@@ -6,12 +6,7 @@
 	height: 100%;
 	width: 100%
 }
-#main > thead{
-	height: 200px;
-}
-#main > tbody{
-	height: 100px;
-}
+
 #bg-change{
 	background-color: black;
 	color: white;
