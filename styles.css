@@ -1,20 +1,21 @@
 
 /* Your CSS Code here. */
+#main{
+/* 	border-collapse: collapse; */
+	border:1px solid black;
+	height: 100%;
+	width: 100%
+}
 #bg-change{
 	background-color: black;
 	color: white;
 }
-.center1{
-	width: 50vw;
-	height: 50vh;
-}
-.center2{
-	width: 50vw;	
-	height: 20vh;
+th , td{
+	border:1px solid black;
+/* 	padding: 8px; */
+	text-align: center;
 }
 #t1, #t2, #t3, #t4{
-	width:100%;
-}
-.c{
-	text-align: center;
+	width: 100%;
+	border: 1px solid black;
 }
